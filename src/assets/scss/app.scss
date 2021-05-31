@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins');
+@import '../../../node_modules/bootstrap/dist/css/bootstrap.css';
+@import '../../../node_modules/@fortawesome/fontawesome-free/css/all.css';
+@import 'variables';
+
+*{
+    font-family: 'Avenir', 'Poppins', sans-serif;
+}
+
+.btn-primary {
+   background-color: $featured;
+   border-color: none !important;
+   &:hover{
+    background-color: $featured-dark;
+    border-color: none !important;
+  }
+}
+
+.icone{
+  cursor: pointer;
+  border-color: none !important;
+  &:hover{
+   border-color: none !important;
+   color: $featured-dark;
+ }
+}
+
+.btn-outline-primary {
+  border-color: white !important;
+  color: white !important;
+  &:hover {
+    color: white !important;
+    background-color: $featured-dark;
+    border-color: white !important;
+  }
+}
+
+.custom-button:focus {
+  outline: none !important;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+}
+
+div::-webkit-scrollbar {
+  width: 0px;               /* width of the entire scrollbar */
+}
+
+div::-webkit-scrollbar-track {
+  background: #F5F9FA;        /* color of the tracking area */
+}
+
+div::-webkit-scrollbar-thumb {
+  background-color: $featured;    /* color of the scroll thumb */
+  border-radius: 10px;       /* roundness of the scroll thumb */
+  border: 3px solid $featured-dark;  /* creates padding around scroll thumb */
+}
+
+.app-title{
+  color: white !important;
+}
