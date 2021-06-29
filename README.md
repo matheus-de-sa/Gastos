@@ -1,4 +1,4 @@
-# projeto2
+# Gastos
 
 ## Project setup
 ```
